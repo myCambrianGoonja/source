@@ -1,0 +1,27 @@
+@{
+    ViewData["Title"] = "Intro";
+}
+
+<h3>Goonja Gandhi</h3>
+
+<div class="container mt-4">
+    <form>
+        <div class="mb-3">
+            <label for="number1" class="form-label">Number 1</label>
+            <input type="number" class="form-control" id="number1" name="number1" required>
+        </div>
+        <div class="mb-3">
+            <label for="number2" class="form-label">Number 2</label>
+            <input type="number" class="form-control" id="number2" name="number2" required>
+        </div>
+        <div class="mb-3">
+            <label for="output" class="form-label">Output</label>
+            <input type="text" class="form-control" id="output" name="output" readonly>
+        </div>
+        <button type="submit" class="btn btn-primary">Calculate</button>
+    </form>
+</div>
+
+@section mySimpleSection {
+    <p>This is my simple text comming from section</p>
+ }
